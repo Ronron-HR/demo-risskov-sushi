@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Risskov Sushi · Køkkenet (demo)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;800&family=Inter+Tight:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="ejer">
+<div class="demo" role="note">Demo · lavet af OviaSpecs til Risskov Sushi – ikke deres officielle side</div>
+<main class="wrap" id="main">
+  <p class="k" style="margin-top:20px"><a href="./index.html">← Kundesiden</a></p>
+  <h1 class="eh" id="eh">Køkkenet · i dag</h1>
+  <div class="big2"><b id="tot" aria-live="polite">0</b><span>ordrer<br>i dag</span></div>
+  <div id="warn"></div>
+
+  <h2 class="sub">Kapacitet pr. kvarter</h2>
+  <div class="cap" id="cap"></div>
+  <p style="font-size:12px;font-weight:600;margin-top:8px">Maks. <span id="capn">6</span> ordrer pr. kvarter er en demo-antagelse. Tryk "Sæt fuldt" for at lukke et kvarter.</p>
+
+  <h2 class="sub">Ordrer efter afhentningstid</h2>
+  <div id="orders"></div>
+
+  <div class="klist"><h2>Køkkenliste</h2><ul id="klist"></ul></div>
+  <p style="font-size:13px;font-weight:600"><button class="link" id="reset" type="button">Nulstil demo</button> · Eksempler er falske demo-data (navne med "(demo)").</p>
+</main>
+<script src="./js/shared.js"></script>
+<script src="./js/ejer.js"></script>
+</body>
+</html>

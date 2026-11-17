@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Demo af bestilling til afhentning hos Risskov Sushi. Lavet af OviaSpecs. Ikke stedets officielle side.">
+<title>Risskov Sushi · Bestil til afhentning (demo)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;800&family=Inter+Tight:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="demo" role="note">Demo · lavet af OviaSpecs til Risskov Sushi – ikke deres officielle side</div>
+
+<main id="main">
+  <div class="site">
+    <section class="hero" aria-labelledby="ttl">
+      <div class="hv" aria-hidden="true">Afhentning</div>
+      <div class="slip" id="slip">
+        <div class="stamp">Laves frisk</div>
+        <p class="k">Risskov Sushi</p>
+        <h1 id="ttl">Din bestilling.<br>Din tid.</h1>
+        <div class="dash"></div>
+        <p class="k" id="nxl">Næste ledige afhentning</p>
+        <div class="next" id="nx" aria-live="polite">17.00</div>
+        <div id="nxs" class="row"><span id="nxt"></span></div>
+        <div class="tline" id="tline" aria-hidden="true"></div>
+        <div class="tl-l k" aria-hidden="true"><span>16.00</span><span>20.00</span></div>
+        <div class="dash"></div>
+        <div class="row"><span>Tirsdag–lørdag</span><b>16–20</b></div>
+        <div class="row"><span>Søndag</span><b>17–20</b></div>
+        <div class="row"><span>Mandag</span><b>lukket</b></div>
+      </div>
+      <div class="hcta">
+        <button class="btn" id="start" type="button">Bestil til afhentning <span aria-hidden="true">→</span></button>
+        <p class="note-s" id="closedmsg" hidden></p>
+        <p class="note-s">Du kan stadig ringe på <a href="tel:+4586132040">8613 2040</a> (telefonen åbner kl. 12). Her vælger du bare en tid.</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="mq" aria-hidden="true"><div id="mq">Vælg tid · <em>afhent</em> · laves frisk · Vælg tid · <em>afhent</em> · laves frisk · Vælg tid · <em>afhent</em> ·</div></div>
+
+  <section class="tl" id="tl" aria-labelledby="tlh">
+    <div class="site">
+      <h2 id="tlh">Aftenen hos <em>Risskov Sushi</em></h2>
+      <div class="tl-line" aria-hidden="true"><i id="tli"></i></div>
+      <div class="tl-row">
+        <div class="tm" id="ta"><span class="k">Telefonen åbner</span><div class="t" aria-label="klokken 12.00">12.00</div><p>Man kan ringe og bestille fra kl. 12, tirsdag til søndag.</p></div>
+        <div class="tm" id="tb"><span class="k">Køkkenet åbner</span><div class="t" aria-label="klokken 16.00">16.00</div><p>Åbent tirsdag til lørdag kl. 16–20. Søndag 17–20.</p></div>
+        <div class="tm" id="tc"><span class="k">Lukker</span><div class="t" aria-label="klokken 20.00">20.00</div><p>Sushien laves frisk, og der kan opstå ventetid. Vælg derfor en tid i god tid.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="site">
+    <section class="sec" aria-labelledby="mt">
+      <h2 id="mt">Menukortet</h2>
+      <p class="note-s" style="max-width:46ch">Et udvalg med priser fra stedets menukort (august 2025). Træk sedlerne sidelæns.</p>
+      <div class="board" id="board" tabindex="0" role="region" aria-label="Menuer og priser, scroll vandret"></div>
+      <p class="note-s">Resten af menuen (enkeltstykker, tilbehør, drikkevarer, månedens tilbud) og evt. nyere priser: <span class="tbd">[tjek menu]</span>. <a href="https://risskovsushi.dk/wp-content/uploads/2025/08/Menukort_RisskovSushi_0825_WEB.pdf" rel="noopener" target="_blank">Se menukort-PDF på risskovsushi.dk ↗</a></p>
+    </section>
+
+    <section class="about" aria-labelledby="omt">
+      <div class="ph" role="img" aria-label="Pladsholder til stedets eget billede"><div class="in" data-par><span>Jeres eget billede her</span></div></div>
+      <div class="tx"><h2 id="omt">Lille sushi-take-away i Risskov</h2>
+        <p>Risskov Sushi ligger på Nordre Strandvej 82 og sælger sushi til afhentning. Stedet skriver selv, at sushien laves frisk.</p>
+        <p>Stedet skriver også, at der kan opstå ventetid, og at man bør ringe i god tid. Det er det, demoen prøver at gøre lettere.</p></div>
+    </section>
+
+    <section class="prak" aria-label="Praktisk">
+      <div><h2>Åbent</h2><table class="hrs"><caption class="vh">Åbningstider</caption><tbody>
+        <tr><th scope="row">Tirsdag–lørdag</th><td>16.00–20.00</td></tr>
+        <tr><th scope="row">Søndag</th><td>17.00–20.00</td></tr>
+        <tr><th scope="row">Mandag</th><td>Lukket</td></tr></tbody></table></div>
+      <div><h2>Find os</h2><p style="font-weight:600">Nordre Strandvej 82<br>8240 Risskov</p>
+        <p><a class="link" style="font-size:16px" href="https://www.google.com/maps/search/?api=1&amp;query=Nordre+Strandvej+82+8240+Risskov" rel="noopener" target="_blank">Åbn kort ↗</a></p></div>
+      <div><h2>Ring</h2><a class="big-a" href="tel:+4586132040">8613 2040</a>
+        <p style="font-weight:600;margin-top:8px">Telefonen åbner kl. 12. <a href="https://www.facebook.com/Risskovsushi/" rel="noopener" target="_blank">Facebook ↗</a> · <a href="https://www.instagram.com/risskovsushi/" rel="noopener" target="_blank">Instagram ↗</a></p></div>
+    </section>
+
+    <footer class="f">
+      <p>Demo · lavet af OviaSpecs til Risskov Sushi – ikke deres officielle side. Ingen aftale. Ingen rigtige ordrer, ingen betaling, ingen mails eller sms.</p>
+      <p>Oplysninger fra risskovsushi.dk og stedets menukort (PDF), hentet 17. november 2026. Det der ikke stod der, er markeret <span class="tbd">[tjek med stedet]</span>.</p>
+      <p><a href="./ejer.html">Køkkenets visning (demo)</a> · <button class="link" id="simbtn" type="button">Demo-tid</button> · <button class="link" id="reset" type="button">Nulstil demo</button></p>
+    </footer>
+  </div>
+</main>
+
+<div id="flow" hidden role="dialog" aria-modal="true" aria-label="Bestil til afhentning">
+  <div class="fbar">
+    <button class="ibtn" id="back" type="button">← Tilbage</button>
+    <div class="evening" role="img" aria-label="Aftenen fra 16.00 til 20.00. Jo længere du er kommet, jo længere er linjen" id="ev">
+      <div class="ln"><i id="evi" style="width:0"></i><b id="evb" style="left:0"></b></div>
+      <div class="lb"><span>16.00</span><span id="evm">Trin 1 af 4</span><span>20.00</span></div>
+    </div>
+    <button class="ibtn" id="close" type="button" aria-label="Luk">Luk ✕</button>
+  </div>
+  <div class="fbody" id="fbody" aria-live="polite"></div>
+  <div class="fbar2"><div class="err" id="err" role="alert"></div><div class="tot" id="tot" hidden><span>Samlet (demo, ingen betaling)</span><b id="totv">0 kr.</b></div><button class="btn" id="next" type="button">Videre <span aria-hidden="true">→</span></button></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.9/dist/lenis.min.js"></script>
+<script src="https://unpkg.com/split-type@0.3.4/umd/index.min.js"></script>
+<script src="./js/shared.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
